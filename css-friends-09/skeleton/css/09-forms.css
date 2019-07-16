@@ -1,0 +1,46 @@
+/* PHASE 9: Forms */
+.form-thumb{
+  float: left;
+}
+
+.form-fieldset{
+  float: left;
+  width: 500px;
+  margin-left: 15px; 
+  background: #eee;
+  border: 1px solid black; 
+}
+
+
+.input{
+  margin: 5px 0 15px 20px;
+}
+
+.input > label{
+  display: block;
+}
+
+
+.input > input, 
+.input > textarea{
+  display: block;
+  width: 90%;
+  background-color: white;
+  padding: 10px;
+  border: 0.5px solid black;
+  border-radius: 7px;
+}
+
+.input>input:focus,
+.input>textarea:focus {
+  border-color: green;
+}
+
+.input>textarea {
+  height: 120px;
+}
+
+
+.submit{
+  margin: 0 0 5px 20px;
+}

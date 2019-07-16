@@ -1,0 +1,67 @@
+html, body, figure, figcaption, ul, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  text-align: inherit;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul{
+  list-style: none;
+  float: left;
+  width: 150px;
+  padding: 0 0 10px 0;
+  border-bottom: 10px solid black;
+  cursor: pointer;
+  margin: 0 20px;
+}
+
+ul:hover {
+  border-color: blue;
+}
+
+.selected {
+  border-color: red;
+}
+
+li {
+  width: 0px;
+  margin: 10px auto;
+  height: 50px;
+  background: gray;
+  border-radius: 25px;
+}
+
+
+.board {
+  margin: 30px auto;
+  width: 600px;
+}
+
+.clear:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.disk1 {
+  background-color: aqua;
+  width: 50px;
+}
+
+.disk2 {
+  background-color: firebrick;
+  width: 80px;
+}
+
+.disk3 {
+  background-color: plum;
+  width: 130px;
+}
+.disk1, .disk2, .disk3 {
+  height: 50px;
+}
